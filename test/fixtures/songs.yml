@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  HarpType: 
+  SongName: 
+  WhoseSong: 
+  Genre: 
+  PostedBy: 
+  Views: 
+
+two:
+  HarpType: 
+  SongName: 
+  WhoseSong: 
+  Genre: 
+  PostedBy: 
+  Views: 

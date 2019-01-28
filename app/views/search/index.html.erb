@@ -1,0 +1,7 @@
+<p id="notice"><%= notice %></p>
+
+<%= form_tag("/search/show", method: "post") do %>
+  <%= label_tag(:song_name, "Song Name:") %>
+  <%= text_field_tag(:song_name) %>
+  <%= submit_tag("Search") %>
+<% end %>

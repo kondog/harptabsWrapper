@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Harptype:</strong>
+  <%= @song.HarpType %>
+</p>
+
+<p>
+  <strong>Songname:</strong>
+  <%= @song.SongName %>
+</p>
+
+<p>
+  <strong>Whosesong:</strong>
+  <%= @song.WhoseSong %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @song.Genre %>
+</p>
+
+<p>
+  <strong>Postedby:</strong>
+  <%= @song.PostedBy %>
+</p>
+
+<p>
+  <strong>Views:</strong>
+  <%= @song.Views %>
+</p>
+
+<%= link_to 'Edit', edit_song_path(@song) %> |
+<%= link_to 'Back', songs_path %>
